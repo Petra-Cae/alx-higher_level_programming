@@ -4,8 +4,8 @@
 /**
 * print_python_list_info - prints info about a python list
 * @p: pointer to a PyObject
-* 
-*Return: void 
+*
+*Return: void
 */
 void print_python_list_info(PyObject *p)
 {
@@ -21,7 +21,7 @@ void print_python_list_info(PyObject *p)
 
     for (a = 0; a < size; a++)
     {
-        item = PyList_GetItem(p, i);
-        printf("Element %ld: %s\n", i, Py_TYPE(item)->tp_name);
+        item = PyList_GetItem(p, a);
+        printf("Element %ld: %s\n", a, Py_TYPE(item)->tp_name);
     }
 }
