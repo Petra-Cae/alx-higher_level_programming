@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# oop on a class square
+"""Define a class Square"""
 
 
 class Square():
