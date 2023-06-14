@@ -1,2 +1,1 @@
-# JavaScript Warm Up
-## Welcome to JavaScript
+# Welcome to JavaScript
