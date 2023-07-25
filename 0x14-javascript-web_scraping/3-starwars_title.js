@@ -12,4 +12,4 @@ req.get(url, (error, response, body) => {
     console.log(error);
   }
   console.log(JSON.parse(body).title);
-  });
+});
